@@ -1,0 +1,12 @@
+com\example\clima\ClimaApplication.class
+com\example\clima\api\ClimaRequest.class
+com\example\clima\utils\BusinessServiceException.class
+com\example\clima\api\ClimaApi.class
+com\example\clima\service\ClimaService.class
+com\example\clima\utils\ErrorDefinition.class
+com\example\clima\dto\Clima.class
+com\example\clima\conf\ConfigProperties.class
+com\example\clima\conf\DozerMapper.class
+com\example\clima\api\ClimaResponse.class
+com\example\clima\utils\CustomErrorType.class
+com\example\clima\integracion\ClimaIntegracion.class

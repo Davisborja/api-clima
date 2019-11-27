@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<error-definitions>
+    <error-definition severity="ERROR" alias="wrongParameters" http-status="301">
+        <message>Error al obtener el clima. {0} </message>		
+    </error-definition>
+    <error-definition severity="ERROR" alias="mandatoryParametersMissingExplicit" http-status="302">
+        <message>Parámetros obligatorios no fueron informados: {0} </message>		
+    </error-definition>	
+    <error-definition severity="ERROR" alias="paramValueIsNotAsExpected" http-status="303">
+        <message>Valor del parámetro {0} no es el esperado. Valores aceptados son {1} </message>		
+    </error-definition>
+    <error-definition severity="ERROR" alias="parameterNotRequiredLength" http-status="304">
+        <message>Valor del parámetro: {0} no cumple el largo </message>		
+    </error-definition>
+</error-definitions>
